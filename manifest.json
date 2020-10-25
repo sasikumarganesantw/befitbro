@@ -1,0 +1,25 @@
+{
+
+    "manifest_version": 2,
+    "name": "BeFitBro",
+    "version": "1.0",
+  
+    "description": "Plugin challenges you with 30 seconds or lesser workouts on every new tab that you open",
+  
+    "browser_action": {
+      "default_icon": "icons/fitness.png"
+    },
+    "chrome_url_overrides" : {
+      "newtab": "befit.html"
+    },
+    "permissions": [
+      "tabs"
+    ],
+  
+    "background": [
+      {
+        "scripts": ["befit.js"],
+        "persistent": false
+      }
+    ]
+  }
