@@ -6,7 +6,8 @@ var quotes = ["Time to do 5 burpees and burn fat!!",
             "Get on the floor and do 5 crunches",
             "Get on the floor and do 5 leg raise",
             "How about doing jumping rope 10 times(pretend having a rope in hand ;)?",
-            "Time to do 5 jumping squats!!"
+            "Time to do 5 jumping squats!!",
+            "Do 5 push ups and 10 seconds plank"
         ];
 
 // var name = "";
